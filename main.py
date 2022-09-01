@@ -11,7 +11,7 @@ import os
     test3
 """
 
-os.chmod('/home/g1/source_code/chromedriver', 755)
+os.chmod('/home/g1/source_code', 777)
 
 chrome_path = '/home/g1/source_code/chromedriver'
 
