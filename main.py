@@ -8,7 +8,7 @@ import os
     [수정할 점]
     
     00시 이후 페이지 란이 없는 경우 있으므로 예외처리 필요
-
+    test2
 """
 
 os.chmod('/home/g1/source_code/chromedriver', 755)
@@ -31,7 +31,6 @@ driver = webdriver.Chrome(chrome_path, chrome_options = options)
 driver.get(url)
 
 from bs4 import BeautifulSoup
-
 
 html_1 = driver.page_source
 soup_1 = BeautifulSoup(html_1, "html.parser")
