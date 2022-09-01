@@ -8,7 +8,7 @@ import os
     [수정할 점]
     
     00시 이후 페이지 란이 없는 경우 있으므로 예외처리 필요
-    test2
+    test3
 """
 
 os.chmod('/home/g1/source_code/chromedriver', 755)
