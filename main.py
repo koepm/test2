@@ -11,8 +11,6 @@ import os
     test3
 """
 
-os.chmod('/home/g1/source_code', 777)
-
 chrome_path = '/home/g1/source_code/chromedriver'
 
 #search_date = input(" 검색하고 싶은 날짜 입력 ex)20220101, 오늘 = t : ")
