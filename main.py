@@ -32,6 +32,7 @@ driver.get(url)
 
 from bs4 import BeautifulSoup
 
+
 html_1 = driver.page_source
 soup_1 = BeautifulSoup(html_1, "html.parser")
 pageList = soup_1.find('div', 'paginate').find_all(attrs={"data-id": True})
